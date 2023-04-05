@@ -1,0 +1,18 @@
+psycopg2-binary>=2.9.3
+
+git+https://github.com/nelson9608/simplebot-todus@master#simplebot_todus
+
+# required by youtube.py plugin
+youtube-dl
+
+# required by admin.py plugin
+psutil
+
+# required by simplebot_render.py plugin
+Flask
+
+# required by web2pdf.py plugin
+pdfkit
+
+# required by web_screenshot.py plugin
+pyppeteer
